@@ -1,0 +1,16 @@
+return {
+  "mason-org/mason.nvim",
+  keys = {
+    { "<leader>cm", false },
+  },
+  opts = {
+    ensure_installed = {
+      "html-lsp",
+      "prettier",
+      "pyright",
+      "ruff",
+      "rust-analyzer",
+      "rustfmt",
+    },
+  },
+}
