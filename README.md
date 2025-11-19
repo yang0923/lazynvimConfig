@@ -1,4 +1,7 @@
-# 💤 FanyLazyVim
+# LazyVim 配置厂库
+基于 [FanyLaztVim](https://github.com/fanlumaster/lazyvim-archlinux) 进行配置
+
+## 💤 FanyLazyVim
 
 My lazyvim config branch for arch linux specifically, and it also works on MacOS.
 
