@@ -15,7 +15,7 @@ local opt = vim.opt
 
 opt.spell = false
 opt.conceallevel = 0
-opt.wrap = true
+opt.wrap = false  --关闭自动换行
 opt.relativenumber = false
 -- opt.guifont = { "CaskaydiaCove Nerd Font", "Source Han Sans SC", ":h17" }
 if vim.fn.has("mac") == 1 then
@@ -37,3 +37,7 @@ opt.showcmd = false
 opt.scrolloff = 0
 opt.cinkeys = "0{,0},0),0],0#,!^F,o,O,e"
 opt.indentkeys = "0{,0},0),0],0#,!^F,o,O,e"
+
+
+
+
